@@ -1,0 +1,28 @@
+{
+  "name": "address-book",
+  "version": "1.0.0",
+  "description": "adress book terminal app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js",
+    "start": "ts-node app/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davidblkx/address-book.git"
+  },
+  "keywords": [
+    "example"
+  ],
+  "author": "david pires",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Davidblkx/address-book/issues"
+  },
+  "homepage": "https://github.com/Davidblkx/address-book#readme",
+  "dependencies": {
+    "rxjs": "^6.5.3",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  }
+}
