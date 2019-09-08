@@ -1,4 +1,5 @@
 webapp/lib/
+dist/
 
 # Logs
 logs

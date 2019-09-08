@@ -44,6 +44,11 @@ export class Collection<T> {
     return itemToSave;
   }
 
+  /** delete an entity with id */
+  public delete(id: string) {
+    delete this._data[id];
+  }
+
   /** commit changes to database */
   public commit() {
     this._db.setCollection(this);
