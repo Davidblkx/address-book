@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "rootDir": "./",
+    "outDir": "./webapp/lib/",
+    "lib": [
+      "dom",
+      "es2018",
+      "es2019",
+      "esnext"
+    ]
+  },
+  "exclude": [
+    "node_modules/**/*"
+  ],
+  "include": [
+    "app/**/*"
+  ]
+}
