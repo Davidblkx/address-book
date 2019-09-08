@@ -15,7 +15,8 @@ function handleFormSubmit(event: Event) {
   service.people.set(c);
   service.save();
 
-  window.location.href = '../list.html';
+  const url = window.location.href.replace('create', 'list');
+  window.location.href = url
 
   return false;
 }
