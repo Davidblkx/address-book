@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
     "target": "es2017",
-    "module": "esnext",
+    "module": "es2015",
     "strict": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
     "rootDir": "./",
-    "outDir": "./webapp/lib/",
+    "outDir": "./dist/",
     "lib": [
       "dom",
       "es2018",

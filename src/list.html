@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Address Book</title>
+</head>
+<body>
+  <a href="index.html">back</a>
+  <a href="create.html">create</a>
+  <script src="../node_modules/systemjs/dist/system.js"></script>
+  <script>
+    const d = System.import('./lib/app/controller/create.js');
+    console.log(d);
+  </script>
+</body>
+</html>
